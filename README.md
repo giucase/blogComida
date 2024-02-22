@@ -2,7 +2,7 @@
 
 ## Tarefas
 
--[] Haader
+-[ ] Haader
     -[x]HTML
     -[]CSS
 - [ ] Apresentação 
