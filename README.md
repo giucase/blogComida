@@ -2,9 +2,9 @@
 
 ## Tarefas
 
--[] Haader
+-[ ] Haader
     -[x]HTML
-    -[]CSS
+    -[ ]CSS
 - [ ] Apresentação 
 - [ ] Conhecimentos
 - [ ] Restaurantes
