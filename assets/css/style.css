@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Luxurious+Roman&display=swap');
+
+
+header::before{
+    content: "";
+    background-image: url("../images/header.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: absolute;
+    z-index: -10;
+}
+
+h1{
+    color: #13110E;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 56px;
+    font-weight:800 ;
+}
+
+h2{
+    color: #FFA500;
+    font-family: "Luxurious Roman", serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
