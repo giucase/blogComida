@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Luxurious+Roman&display=swap');
 
+:root{
+    --color-destak:#FFA500;
+    --color-white:#FEFCFA;
+    --color-black:#13110E;
+    --font-title:"Montserrat";
+    --font-body:"Rubik";
+
+}
+
+header{
+    height: 100vh;
+}
 
 header::before{
     content: "";
-    background-image: url("../images/header.png");
+    background-image: url("../images/comida-brasileira-simples-com-espaco-de-copia.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -14,16 +26,50 @@ header::before{
 
 h1{
     color: #13110E;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Montserrat", sans-serif;
     font-size: 56px;
     font-weight:800 ;
 }
 
 h2{
-    color: #FFA500;
-    font-family: "Luxurious Roman", serif;
+    color: #eeba2a;
+    font-family: "Rubik", sans-serif;
     font-size: 40px;
     font-weight: 600;
 }
 
+#secao-apresentacao{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    /*1rem = 16px*/
+}
+
+
+#secao-apresentacao img{
+    border-radius: 50%;
+}
+
+
+#texto-apresentacao h2{
+    color: var(--color-black)
+}
+
+
+#texto-apresentacao h2{
+    font-size: 2,5rem;
+    font-family: var(--font-title);
+    color: var(--color-black)
+}
+
+
+#texto-apresentacao p{
+    font-size: 1,5rem;
+    font-family: var(--font-body);
+}
+
+
+img{
+
+}
 
