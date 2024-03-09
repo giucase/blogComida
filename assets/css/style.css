@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Luxurious+Roman&display=swap');
 
 :root{
-    --color-destak:#FFA500;
+    --color-destak:#AD0C0C;
+    --color-destak2:#86611F;
     --color-white:#FEFCFA;
     --color-black:#13110E;
-    --font-title:"Montserrat";
+    --font-title:"Marcellus SC";
     --font-body:"Rubik";
 
 }
@@ -15,7 +16,7 @@ header{
 
 header::before{
     content: "";
-    background-image: url("../images/comida-brasileira-simples-com-espaco-de-copia.jpg");
+    background-image: url("/assets/images/uma-mesa-de-madeira-em-um-restaurante-com-fundo-desfocado_881067-788.avif");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -25,14 +26,14 @@ header::before{
 }
 
 h1{
-    color: #13110E;
-    font-family: "Montserrat", sans-serif;
+    color: #FEFCFA;
+    font-family: "Marcellus SC", serif;
     font-size: 56px;
     font-weight:800 ;
 }
 
 h2{
-    color: #eeba2a;
+    color: #AD0C0C;
     font-family: "Rubik", sans-serif;
     font-size: 40px;
     font-weight: 600;
