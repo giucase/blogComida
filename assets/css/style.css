@@ -21,7 +21,7 @@ header{
 
 header::before{
     content: "";
-    background-image: url("/assets/images/uma-mesa-de-madeira-em-um-restaurante-com-fundo-desfocado_881067-788.avif");
+    background-image: url("");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -128,7 +128,7 @@ h2{
     opacity: .3;
 }
 
-#secao-restaurantes{
+#secao-restaurante{
     height: 100vh;
     padding: 3rem;
 }
